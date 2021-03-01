@@ -8,7 +8,12 @@ Add the shortcode to a post or a page.
 
 Example:
 
-    [url="https://example.com/redmine" project="foo" wiki="Wiki" key="243f6a8885a308d313198a2e03707344a4093822"]
+    [rwiki url="https://example.com/redmine" project="foo" wiki="Wiki" key="REDMINE_USER_API_KEY"]
+
+## Note
+
+Please Redmine user with a role that allowed only wiki view
+and export privileges for security.
 
 ## License
 
